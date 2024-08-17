@@ -1,0 +1,42 @@
+{
+    "name":"img",
+    "dockerComposeFile":"../docker-compose.yml",
+    "service":"app",
+    "workspaceFolder":"/workspace",
+    "customizations": {
+      "vscode": {
+         "settings":{
+            "terminal.integrated.profiles.linux":{
+               "bash":{
+                  "path":"/bin/bash"
+               }
+            },
+            "python.defaultInterpreterPath":"/usr/local/bin/python",
+            "python.languageServer":"Pylance",
+            "python.linting.enabled":true,
+            "python.testing.pytestEnabled":false,
+            "python.testing.unittestEnabled":true,
+            "workbench.colorTheme":"@id:wesbos.theme-cobalt2",
+            "editor.renderWhitespace":"all",
+         },
+         "extensions":[
+            "visualstudioexptteam.vscodeintellicode",
+            "esbenp.prettier-vscode",
+            "dbaeumer.vscode-eslint",
+            "alefragnani.bookmarks",
+            "lacroixdavid1.vscode-format-context-menu",
+            "eamodio.gitlens",
+            "oderwat.indent-rainbow",
+            "ionutvmi.path-autocomplete",
+            "chrmarti.regex",
+            "humao.rest-client",
+            "GitHub.copilot",
+            "ms-python.python",
+            "ms-python.vscode-pylance",
+            "njpwerner.autodocstring",
+            "jebbs.plantuml"
+         ]
+      }
+    },
+    "remoteUser":"root"
+ }
