@@ -197,3 +197,6 @@ jest.config.js
 **/inputs/*
 **/outputs/*
 **/fonts/*
+**/input/*
+**/output/*
+**/font/*
