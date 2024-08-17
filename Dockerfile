@@ -3,7 +3,10 @@ FROM mcr.microsoft.com/vscode/devcontainers/python:0-${VARIANT}
 
 ENV PYTHONUNBUFFERED 1
 
+# 必要な依存関係をインストール
 RUN sudo apt-get update && sudo apt-get install -y \
+  libgl1-mesa-glx \
+  libglib2.0-0 \
   coreutils
 
 # [Optional] Allow the vscode user to pip install globally w/o sudo
