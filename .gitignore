@@ -202,3 +202,5 @@ jest.config.js
 **/font/*
 **/edit_input/*
 **/edit_output/*
+**/rgba2rgb_input/*
+**/rgba2rgb_output/*
